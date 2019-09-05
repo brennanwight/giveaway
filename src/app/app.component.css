@@ -1,0 +1,73 @@
+/*Google fonts*/@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.icon {
+    float: right;
+}
+
+.trash {
+    color: red;
+}
+
+body {
+    background-color: aliceblue;
+    background-image: radial-gradient(circle, lightblue, lightcyan, lightgoldenrodyellow);
+}
+
+.contestant_item {
+    border: indigo;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: ridge;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.contestant-list {
+    background-color: gray;
+    background-image: linear-gradient(to bottom right, white, grey);
+    border-radius: 5%;
+    width: 400px;
+    height: auto;
+    min-height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.winner_item {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 30px;   
+    text-align: left;
+}
+
+.search-list {
+    background-color: lightgreen;
+    background-image: linear-gradient(to bottom right, lightgreen, lightskyblue);
+    border-radius: 5%;
+    margin-left: 5px;
+    width: 300px;
+    height: auto;
+    min-height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.winner-list {
+    background-color: gold;
+    background-image: linear-gradient(to bottom right, red, gold);
+    margin-left: 5px;
+    border-radius: 5%;
+    width: 400px;
+    height: auto;
+    min-height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
